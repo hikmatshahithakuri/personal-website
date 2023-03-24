@@ -24,13 +24,13 @@ $(document).ready(function(){
     });
     // typing animation script
     var typed =new Typed(".typing", {
-        strings: ["Web Developer.","Blogger.", " Designer.", "Computer Tecnician.","photographer."],
+        strings: ["Web Developer.","Blogger.", " Designer.", "Computer Technician.","photographer."],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed =new Typed(".typing-2", {
-        strings: ["Web Developer.","Blogger.", " Designer.","Computer Tecnician.", "photographer."],
+        strings: ["Web Developer.","Blogger.", " Designer.","Computer Technician.", "photographer."],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
