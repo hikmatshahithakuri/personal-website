@@ -78,7 +78,7 @@ justify-content: space-between;
     display: none;
 }
 .scroll-up-btn {
-   position: fixed;
+    position: fixed;
     height: 60px;
     width: 60px;
     background: crimson;
