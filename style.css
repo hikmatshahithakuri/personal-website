@@ -121,7 +121,11 @@ justify-content: space-between;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid crimson;
-    transition: all 0.3s ease;
+    transition: transform .2s;
+}
+.home .home-content .text-1 img:hover{
+    transform: scale(1.5);
+    border: 5px solid black;
 }
 .home .home-content .text-1 h1{
     font-size: 35px;
