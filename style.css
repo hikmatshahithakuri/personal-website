@@ -170,7 +170,7 @@ justify-content: space-between;
         width: 100%;
         color: white;
         font-family: 'Ubuntu', sans-serif;
-         animation: bgChange 20s linear infinite;
+         animation: bgChange 40s linear infinite;
     }
 .home .max-width{
     margin: auto 0 auto 40px;
