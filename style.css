@@ -799,6 +799,7 @@ margin: 10px 0 7px 0;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
+        animation: bgChange 40s linear infinite;
     }
     .navbar .menu.active{
         left: 0;
