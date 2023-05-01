@@ -8,56 +8,32 @@
 html{
     scroll-behavior: smooth;
 }
-             @keyframes bgChange{
-            0%
-            {
-                background-image: url('images/heloooo.jpg');
-            }
-             10%
-            {
-                background-image: url('images/heloooo.jpg');
-            }
-            20%
-            {
-                background-image: url('images/b.jpg');
-            }
-            30%
-            {
-                background-image: url('images/b.jpg');
-            }
-            40%
-            {
-                background-image: url('images/bc.jpg');
-            }
-            50%
-            {
-                background-image: url('images/bc.jpg');
-            }
-            60%
-            {
-                background-image: url('images/d.jpg');
-            }
-             70%
-            {
-                background-image: url('images/d.jpg');
-            }
-            80%
-            {
-                background-image: url('images/wll1.jpg');
-            }
-            90%
-            {
-                background-image: url('images/wll1.jpg');
-            }
-            95%
-            {
-                background-image: url('images/mountain.jpg');
-            }
-            100%
-            {
-                background-image: url('images/mountain.jpg');
-            }
-        }
+@keyframes bgChange{
+    0%
+    {
+        background-image: url('images/heloooo.jpg');
+    }
+     20%
+    {
+        background-image: url('images/b.jpg');
+    }
+    40%
+    {
+        background-image: url('images/bc.jpg');
+    }
+    60%
+    {
+        background-image: url('images/d.jpg');
+    }
+    80%
+    {
+        background-image: url('images/mountain.jpg');
+    }
+    100%
+    {
+        background-image: url('images/wll1.jpg');
+    }
+}
 
 .max-width{
     max-width: 1300px;
@@ -162,7 +138,7 @@ justify-content: space-between;
         width: 100%;
         color: white;
         font-family: 'Ubuntu', sans-serif;
-         animation: bgChange 40s linear infinite;
+        animation: bgChange 30s infinite ease-in-out;
     }
 .home .max-width{
     margin: auto 0 auto 40px;
