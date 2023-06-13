@@ -384,7 +384,7 @@ background: crimson;
     transform: scale(1.05);
 }
 .services .serv-content .card i{
-    font-size: 50px;
+    font-size: 80px;
     color: crimson;
     transition: color 0.3s ease;
 }
