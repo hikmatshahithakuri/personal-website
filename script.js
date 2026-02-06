@@ -56,3 +56,16 @@ $(document).ready(function(){
         }
     });
 });
+
+
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const dropdown = document.querySelector(".dropbtn");
+
+    dropdown.addEventListener("click", function (e) {
+      e.preventDefault();
+      this.nextElementSibling.classList.toggle("show");
+    });
+  });
+
